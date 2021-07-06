@@ -1,0 +1,28 @@
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 25px;
+    img{
+        display: none;
+    }
+    strong{
+        font-weight: lighter;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .nosotros{
+        flex-direction: row;
+        .nosotros-img{
+            width: 50%;
+            img{
+                display: initial;
+            }
+        }
+        .txt{
+            width: 50%;
+            align-self: center;
+            font-size: 1.1rem;
+        }
+    }
+}

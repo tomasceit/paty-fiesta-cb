@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.fondo-rojo {
+  background-color: #c6093b !important; }
+
+.fondo-blanco {
+  background-color: white !important; }
+
+body {
+  font-family: "Farro", sans-serif;
+  font-weight: 300; }
+
+i {
+  background-color: white;
+  color: #c6093b; }
+  i.fa-facebook:hover {
+    color: white;
+    background-color: #810000; }
+
+.logoFB i {
+  color: white;
+  background-color: #c6093b;
+  padding: 10px; }
+
+a.logoFB:hover {
+  background-color: white !important; }
+
+h1 {
+  margin-top: 0px !important; }
+
+h1, h2, h3 {
+  color: #c6093b; }
+
+h1, h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 30px 30px; }
+
+#header {
+  background-color: white; }
+  #header .barra {
+    position: fixed;
+    width: 100%;
+    height: 20px; }
+  #header nav.navbar {
+    position: fixed;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 100%; }
+
+a.nav-link:hover {
+  background-color: #f8f9fa; }
+
+.mainLogo a img {
+  width: 100px;
+  height: 72px; }
+
+.mr-auto, .mx-auto {
+  margin-right: 0 !important;
+  width: 100% !important;
+  justify-content: space-evenly; }
+
+a.nav-link {
+  color: #1b1717 !important;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 3px; }
+
+#mapaContacto {
+  align-self: center;
+  margin-right: 10px; }
+  #mapaContacto iframe {
+    width: 95%; }
+
+#contacto {
+  display: grid; }
+  #contacto h2 {
+    font-size: 25px; }
+
+#formContacto {
+  margin-top: 20px; }
+  #formContacto h3 {
+    font-size: 22px;
+    margin-bottom: 10px; }
+  #formContacto .form-control:focus {
+    border-color: #c6093b;
+    box-shadow: 0 0 0 0.1rem #c6093b; }
+
+.datosContacto p {
+  margin-left: 20px;
+  align-self: center;
+  margin-bottom: 0px; }
+
+.fa-map-marker-alt {
+  margin-left: 4px;
+  margin-right: 4px; }
+
+i.fas {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+button.btn-primary {
+  background-color: #c6093b;
+  border-color: #c6093b; }
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #810000;
+  border-color: #810000; }
+
+/*Seccion pie de pagina*/
+#footer {
+  margin-top: 50px; }
+  #footer #footTop {
+    padding: 30px; }
+
+.footInfo i.fas {
+  color: white !important;
+  margin-right: 10px; }
+
+.footInfo p {
+  color: white;
+  margin-bottom: 0px;
+  align-self: center; }
+
+.footLogo {
+  align-self: center;
+  margin-left: 25px; }
+  .footLogo img {
+    height: 78px;
+    width: 108px; }
+
+#footBottom {
+  margin-top: 25px;
+  display: grid;
+  justify-items: center; }
+
+#marcas h2 {
+  color: white;
+  padding-bottom: 30px; }
+
+#marcas .d-block.w-100 {
+  height: auto;
+  max-width: 150px !important; }
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 25px; }
+  .nosotros img {
+    display: none; }
+  .nosotros strong {
+    font-weight: lighter; }
+
+@media only screen and (min-width: 1024px) {
+  .nosotros {
+    flex-direction: row; }
+    .nosotros .nosotros-img {
+      width: 50%; }
+      .nosotros .nosotros-img img {
+        display: initial; }
+    .nosotros .txt {
+      width: 50%;
+      align-self: center;
+      font-size: 1.1rem; } }
+
+#productos {
+  align-items: center;
+  justify-items: center; }
+  #productos h2 {
+    font-size: 1.6rem; }
+  #productos a:hover {
+    text-decoration: none; }
+  #productos p {
+    color: #c6093b;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1.5rem;
+    text-align: center; }
+    #productos p:hover {
+      /*background-color: $colorPrincipal;
+            color: white;*/
+      text-decoration: underline; }
+
+#servicios h2 {
+  color: white; }
+
+#servicios i.fas {
+  color: white;
+  align-self: center; }
+
+#servicios div.envio {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center; }
+
+#servicios div.tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center; }
+
+h3.pServ {
+  color: white;
+  font-size: 1.2rem; }
+
+/* Principal */
+#container {
+  display: grid;
+  grid-template-rows: 0.5fr 1fr auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
+
+@media only screen and (min-width: 1024px) {
+  #container {
+    display: grid;
+    grid-template-rows: 130px 0.8fr 0.5fr auto auto 0.5fr 1fr 0.3fr; } }
+
+/* Seccion Contacto */
+#contacto {
+  margin: 5px 30px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px auto auto auto;
+  grid-template-areas: "titulo" "mapa" "datos" "formulario"; }
+
+@media only screen and (min-width: 1024px) {
+  #contacto {
+    margin: 5px 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 60px 1fr 1.8fr;
+    grid-template-areas: "titulo titulo" "mapa datos" "mapa formulario"; } }
+
+#contacto h2 {
+  grid-area: titulo; }
+
+#mapaContacto {
+  grid-area: mapa; }
+
+.datosContacto {
+  grid-area: datos;
+  align-self: center;
+  justify-self: start;
+  padding-top: 25px; }
+
+/*Seccion Productos*/
+#productos {
+  margin: 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-areas: "titProd titProd" "hambFoto salchFoto" "fiambFoto copFoto" "gasFoto posFoto"; }
+
+@media only screen and (min-width: 1024px) {
+  #productos {
+    margin: 35px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas: "titProd titProd titProd" "hambFoto salchFoto copFoto" "fiambFoto gasFoto posFoto"; } }
+
+#productos h2 {
+  grid-area: titProd;
+  align-self: center;
+  justify-self: center; }
+
+.hambFoto {
+  grid-area: hambFoto;
+  align-self: center;
+  justify-self: center; }
+
+.salchFoto {
+  grid-area: salchFoto;
+  align-self: center;
+  justify-self: center; }
+
+.fiambFoto {
+  grid-area: fiambFoto;
+  align-self: center;
+  justify-self: center; }
+
+.copFoto {
+  grid-area: copFoto;
+  align-self: center;
+  justify-self: center; }
+
+.gasFoto {
+  grid-area: gasFoto;
+  align-self: center;
+  justify-self: center; }
+
+.posFoto {
+  grid-area: posFoto;
+  align-self: center;
+  justify-self: center; }
+
+/* Seccion Servicios */
+#servicios {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px auto auto;
+  grid-template-areas: "titulo" "envio" "tarjetas"; }
+  #servicios h2 {
+    grid-area: titulo; }
+  #servicios div.envio {
+    grid-area: envio; }
+  #servicios div.tarjeta {
+    grid-area: tarjetas; }
+
+@media only screen and (min-width: 1024px) {
+  #servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px auto;
+    grid-template-areas: "titulo titulo" "envio tarjetas";
+    height: 250px; }
+  .envio {
+    margin-left: 250px; }
+  .tarjeta {
+    margin-right: 250px; } }
+
+/* Pie de pagina */
+#footTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo info"; }
+  #footTop .footLogo {
+    grid-area: logo; }
+  #footTop .footInfo {
+    grid-area: info; }
+
+@media only screen and (min-width: 1024px) {
+  #footTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo info none"; }
+    #footTop .footLogo {
+      grid-area: logo; }
+    #footTop .footInfo {
+      grid-area: info; }
+    #footTop .none {
+      grid-area: none; } }

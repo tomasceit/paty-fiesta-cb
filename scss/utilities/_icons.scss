@@ -1,0 +1,18 @@
+i{
+    background-color: white;
+    color: $colorPrincipal;
+    &.fa-facebook:hover{
+        color: white;
+        background-color: $colorSecundario;
+    }
+}
+
+.logoFB i{
+    color: white;
+    background-color: $colorPrincipal;
+    padding: 10px;
+}
+
+a.logoFB:hover{
+    background-color: white !important;
+}

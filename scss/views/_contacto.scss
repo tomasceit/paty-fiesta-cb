@@ -1,0 +1,50 @@
+#mapaContacto{
+    align-self: center;
+    margin-right: 10px;
+    iframe{
+        width: 95%;
+    }
+}
+
+#contacto{
+    display: grid;
+    h2{
+        font-size: 25px;
+    }
+}
+#formContacto{
+    margin-top: 20px;
+    h3{
+        font-size: 22px;
+        margin-bottom: 10px;          
+    }
+    .form-control:focus{
+        border-color: $colorPrincipal;
+        box-shadow: 0 0 0 .1rem $colorPrincipal;
+    }
+}
+.datosContacto p{
+    margin-left: 20px;
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+.fa-map-marker-alt{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+i.fas{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button.btn-primary{
+    background-color: $colorPrincipal;
+    border-color: $colorPrincipal;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $colorSecundario;
+    border-color: $colorSecundario;
+}

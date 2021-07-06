@@ -1,0 +1,25 @@
+#servicios{
+    h2{
+        color: white;
+    }
+    i.fas{
+        color: white;
+        align-self: center;
+    }
+    div.envio{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+    }
+    div.tarjeta{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-self: center;
+    }
+}
+h3.pServ{
+    color: white;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,36 @@
+#header{
+    background-color: white;
+    .barra{
+        position: fixed;
+        width: 100%;
+        height: 20px;
+    }
+    nav.navbar{
+        position: fixed;
+        background-color: white;
+        margin-top: 20px;
+        padding-top: 10px;
+        width: 100%; 
+    }
+}
+a.nav-link:hover{
+    background-color: #f8f9fa   ;
+}
+.mainLogo a img{
+    width: 100px;
+    height: 72px;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: 0!important;
+    width: 100% !important;
+    justify-content: space-evenly;
+}
+
+a.nav-link{
+    color: #1b1717 !important;
+    font-family: $fuenteNav;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}

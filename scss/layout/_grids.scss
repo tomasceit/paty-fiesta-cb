@@ -1,0 +1,164 @@
+/* Principal */
+#container{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr auto 0.5fr 1fr 0.5fr 2fr 0.5fr ;
+}
+@media only screen and (min-width: 1024px) {
+    #container{
+        display: grid;
+        grid-template-rows: 130px 0.8fr 0.5fr auto auto 0.5fr 1fr 0.3fr ;
+    }
+}
+
+/* Seccion Contacto */
+
+#contacto{
+    margin: 5px 30px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px auto auto auto;
+    grid-template-areas: "titulo" "mapa" "datos" "formulario";
+}
+
+@media only screen and (min-width: 1024px) {
+    #contacto{
+        margin: 5px 10px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 60px 1fr 1.8fr;
+        grid-template-areas: "titulo titulo" "mapa datos" "mapa formulario";
+    }
+}
+#contacto h2{
+    grid-area: titulo;
+}
+#mapaContacto{
+    grid-area: mapa;
+}
+.datosContacto{
+    grid-area: datos;
+    align-self: center;
+    justify-self: start;
+    padding-top: 25px;
+}
+
+/*Seccion Productos*/
+
+#productos{
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-template-areas: "titProd titProd" "hambFoto salchFoto" "fiambFoto copFoto" "gasFoto posFoto";
+}
+
+@media only screen and (min-width: 1024px) {
+    #productos{
+        margin: 35px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-areas: "titProd titProd titProd" "hambFoto salchFoto copFoto" "fiambFoto gasFoto posFoto";
+    }
+}
+
+#productos h2{
+    grid-area: titProd;
+    align-self: center;
+    justify-self: center;
+}
+.hambFoto{
+    grid-area: hambFoto;
+    align-self: center;
+    justify-self: center;
+}
+.salchFoto{
+    grid-area: salchFoto;
+    align-self: center;
+    justify-self: center;
+}
+.fiambFoto{
+    grid-area: fiambFoto;
+    align-self: center;
+    justify-self: center;
+}
+.copFoto{
+    grid-area: copFoto;
+    align-self: center;
+    justify-self: center;
+}
+.gasFoto{
+    grid-area: gasFoto;
+    align-self: center;
+    justify-self: center;
+}
+.posFoto{
+    grid-area: posFoto;
+    align-self: center;
+    justify-self: center;
+}
+
+/* Seccion Servicios */
+
+#servicios{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px auto auto;
+    grid-template-areas: "titulo" "envio" "tarjetas";
+    h2{
+        grid-area: titulo;
+    }
+    div.envio{
+        grid-area: envio;
+    }
+    div.tarjeta{
+        grid-area: tarjetas;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #servicios{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70px auto;
+        grid-template-areas: "titulo titulo" "envio tarjetas";
+        height: 250px;
+    }
+    .envio{
+        margin-left: 250px;
+    }
+    .tarjeta{
+        margin-right: 250px;
+    }
+}
+
+/* Pie de pagina */
+
+#footTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo info";
+    .footLogo{
+        grid-area: logo;
+    }
+    .footInfo{
+        grid-area: info;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #footTop{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "logo info none";
+        .footLogo{
+            grid-area: logo;
+        }
+        .footInfo{
+            grid-area: info;
+        }
+        .none{
+            grid-area: none;
+        }
+    }
+}

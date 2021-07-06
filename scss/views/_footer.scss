@@ -1,0 +1,34 @@
+/*Seccion pie de pagina*/
+#footer{
+    margin-top: 50px;
+    #footTop{
+        padding: 30px
+    }
+}
+
+.footInfo{
+    i.fas{
+        color: white !important;
+        margin-right: 10px;
+    }
+    p{
+        color: white;
+        margin-bottom: 0px;
+        align-self: center;
+    }
+}
+
+.footLogo{
+    align-self: center;
+    margin-left: 25px;
+    img{
+        height: 78px;
+        width: 108px;
+    }
+}
+
+#footBottom{
+    margin-top: 25px;
+    display: grid;
+    justify-items: center;
+}
