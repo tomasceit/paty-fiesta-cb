@@ -138,9 +138,11 @@ button.btn-primary {
   color: white;
   padding-bottom: 30px; }
 
-#marcas .d-block.w-100 {
-  height: auto;
-  max-width: 150px !important; }
+#marcas div.carousel-item img {
+  max-width: 150px; }
+
+#marcas div.carousel-item.active {
+  justify-self: center; }
 
 .nosotros {
   display: flex;

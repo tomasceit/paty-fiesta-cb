@@ -3,9 +3,11 @@
         color: white;
         padding-bottom: 30px;
     }
-    .d-block.w-100{
-        height: auto;
-        max-width: 150px !important;
+    div.carousel-item img{
+        max-width: 150px;
+    }
+    div.carousel-item.active{
+       justify-self: center; 
     }
 }
 
