@@ -5,8 +5,8 @@
         height: 25px;
     }
 }
-a.nav-link:hover{
-    background-color: #f8f9fa   ;
+a.nav-link.active{
+    color: $colorPrincipal !important;
 }
 .mainLogo a img{
     width: 80px;
