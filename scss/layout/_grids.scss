@@ -6,7 +6,7 @@
 @media only screen and (min-width: 1024px) {
     #container{
         display: grid;
-        grid-template-rows: 130px 0.8fr 0.5fr auto auto 0.5fr 1fr 0.3fr ;
+        grid-template-rows: auto auto auto auto auto 0.5fr 1fr 0.3fr ;
     }
 }
 
