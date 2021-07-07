@@ -5,6 +5,9 @@
         height: 25px;
     }
 }
+li.nav-item.dropdown{
+    display: flex;
+}
 a.nav-link.active{
     color: $colorPrincipal !important;
 }

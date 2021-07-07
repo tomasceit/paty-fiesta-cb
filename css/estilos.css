@@ -43,6 +43,9 @@ h1, h2 {
     width: 100%;
     height: 25px; }
 
+li.nav-item.dropdown {
+  display: flex; }
+
 a.nav-link.active {
   color: #c6093b !important; }
 
@@ -203,7 +206,7 @@ h3.pServ {
 /* Principal */
 #container {
   display: grid;
-  grid-template-rows: 0.5fr 1fr auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
+  grid-template-rows: auto auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
 
 @media only screen and (min-width: 1024px) {
   #container {
