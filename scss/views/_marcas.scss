@@ -6,8 +6,9 @@
     div.carousel-item img{
         max-width: 150px;
     }
-    div.carousel-item.active{
-       justify-self: center; 
+    div.col-sm{
+        display: flex;
+       justify-content: center; 
     }
 }
 

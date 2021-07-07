@@ -141,8 +141,9 @@ button.btn-primary {
 #marcas div.carousel-item img {
   max-width: 150px; }
 
-#marcas div.carousel-item.active {
-  justify-self: center; }
+#marcas div.col-sm {
+  display: flex;
+  justify-content: center; }
 
 .nosotros {
   display: flex;
