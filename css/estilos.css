@@ -39,16 +39,16 @@ h1, h2 {
 
 #header {
   background-color: white; }
-  #header .barra {
+  #header div.barra {
     width: 100%;
-    height: 20px; }
+    height: 25px; }
 
 a.nav-link:hover {
   background-color: #f8f9fa; }
 
 .mainLogo a img {
-  width: 100px;
-  height: 72px; }
+  width: 80px;
+  height: 58px; }
 
 .mr-auto, .mx-auto {
   margin-right: 0 !important;
