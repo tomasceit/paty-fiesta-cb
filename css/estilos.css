@@ -73,6 +73,13 @@ a.nav-link {
   .carousel-caption p {
     font-size: 1.25em; }
 
+#mainSlide {
+  display: none; }
+
+@media only screen and (min-width: 768px) {
+  #mainSlide {
+    display: initial; } }
+
 #mapaContacto {
   align-self: center;
   margin-right: 10px; }
@@ -190,25 +197,27 @@ button.btn-primary {
       /*background-color: $colorPrincipal;
             color: white;*/
       text-decoration: underline; }
+  #productos img {
+    height: 96px;
+    width: 96px; }
 
-#servicios h2 {
-  color: white; }
-
-#servicios i.fas {
-  color: white;
-  align-self: center; }
-
-#servicios div.envio {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center; }
-
-#servicios div.tarjeta {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-self: center; }
+#servicios {
+  padding-bottom: 25px; }
+  #servicios h2 {
+    color: white; }
+  #servicios i.fas {
+    color: white;
+    align-self: center; }
+  #servicios div.envio {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center; }
+  #servicios div.tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center; }
 
 h3.pServ {
   color: white;
@@ -217,7 +226,7 @@ h3.pServ {
 /* Principal */
 #container {
   display: grid;
-  grid-template-rows: auto auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
+  grid-template-rows: auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
 
 @media only screen and (min-width: 1024px) {
   #container {
@@ -320,7 +329,8 @@ h3.pServ {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 70px auto;
     grid-template-areas: "titulo titulo" "envio tarjetas";
-    height: 250px; }
+    height: 250px;
+    padding-bottom: 0px; }
   .envio {
     margin-left: 250px; }
   .tarjeta {

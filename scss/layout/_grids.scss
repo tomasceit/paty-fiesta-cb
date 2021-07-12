@@ -1,7 +1,7 @@
 /* Principal */
 #container{
     display: grid;
-    grid-template-rows: auto auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr ;
+    grid-template-rows: auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr ;
 }
 @media only screen and (min-width: 1024px) {
     #container{
@@ -121,6 +121,7 @@
         grid-template-rows: 70px auto;
         grid-template-areas: "titulo titulo" "envio tarjetas";
         height: 250px;
+        padding-bottom: 0px;
     }
     .envio{
         margin-left: 250px;
