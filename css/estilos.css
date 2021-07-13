@@ -252,6 +252,16 @@ button.btn-primary {
     justify-self: center;
     align-self: center; }
 
+#hamb-header {
+  background-image: url("../imagenes/productos/hamb-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 #servicios {
   padding-bottom: 25px; }
   #servicios h2 {
