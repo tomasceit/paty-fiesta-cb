@@ -81,7 +81,9 @@ a.nav-link {
 
 @media only screen and (min-width: 768px) {
   #mainSlide {
-    display: initial; } }
+    display: initial; }
+  #banner {
+    display: none; } }
 
 #mapaContacto {
   align-self: center;
@@ -138,19 +140,23 @@ button.btn-primary {
 .footInfo p {
   color: white;
   margin-bottom: 0px;
-  align-self: center; }
+  align-self: center;
+  font-size: 0.7em; }
 
 .footLogo {
-  align-self: center;
-  margin-left: 25px; }
+  align-self: center; }
   .footLogo img {
     height: 78px;
     width: 108px; }
 
+@media only screen and (min-width: 1024px) {
+  .footLogo {
+    margin-left: 25px; }
+  .footInfo p {
+    font-size: 1.2em; } }
+
 #footBottom {
-  margin-top: 25px;
-  display: grid;
-  justify-items: center; }
+  margin-top: 25px; }
 
 #marcas h2 {
   color: white;
@@ -162,6 +168,21 @@ button.btn-primary {
 #marcas div.col-sm {
   display: flex;
   justify-content: center; }
+
+.carousel-item.active {
+  display: grid; }
+
+.justify-self-center {
+  justify-self: center; }
+
+#carouselMarcas {
+  display: none; }
+
+@media only screen and (min-width: 1024px) {
+  #carouselMobile {
+    display: none; }
+  #carouselMarcas {
+    display: initial; } }
 
 .nosotros {
   display: flex;
@@ -229,7 +250,7 @@ h3.pServ {
 /* Principal */
 #container {
   display: grid;
-  grid-template-rows: auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
+  grid-template-rows: auto auto auto 0.5fr 1fr 0.5fr 2fr 0.5fr; }
 
 @media only screen and (min-width: 1024px) {
   #container {

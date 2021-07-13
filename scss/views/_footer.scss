@@ -15,20 +15,26 @@
         color: white;
         margin-bottom: 0px;
         align-self: center;
+        font-size: 0.7em;
     }
 }
 
 .footLogo{
     align-self: center;
-    margin-left: 25px;
     img{
         height: 78px;
         width: 108px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .footLogo{
+        margin-left: 25px;
+    }
+    .footInfo p{
+        font-size: 1.2em;
+    }
+}
 
 #footBottom{
     margin-top: 25px;
-    display: grid;
-    justify-items: center;
 }

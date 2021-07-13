@@ -11,4 +11,23 @@
        justify-content: center; 
     }
 }
+.carousel-item.active{
+    display: grid;
+}
 
+.justify-self-center{
+    justify-self: center;
+}
+
+#carouselMarcas{
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    #carouselMobile{
+        display: none;
+    }
+    #carouselMarcas{
+        display: initial;
+    }
+}
