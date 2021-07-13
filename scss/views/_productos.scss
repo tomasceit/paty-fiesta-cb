@@ -69,3 +69,18 @@
 #hamb-header{
     @include productos("../imagenes/productos/hamb-header.jpg");
 }
+#salch-header{
+    @include productos("../imagenes/productos/salch-header.jpg")
+}
+#cop-header{
+    @include productos("../imagenes/productos/cop-header.jpg")
+}
+#fiam-header{
+    @include productos("../imagenes/productos/fiam-header.jpg")
+}
+#gas-header{
+    @include productos("../imagenes/productos/gas-header.jpg")
+}
+#pos-header{
+    @include productos("../imagenes/productos/pos-header.jpg")
+}

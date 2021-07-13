@@ -262,6 +262,56 @@ button.btn-primary {
   background-size: cover;
   background-position: 50% 50%; }
 
+#salch-header {
+  background-image: url("../imagenes/productos/salch-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#cop-header {
+  background-image: url("../imagenes/productos/cop-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#fiam-header {
+  background-image: url("../imagenes/productos/fiam-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#gas-header {
+  background-image: url("../imagenes/productos/gas-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
+#pos-header {
+  background-image: url("../imagenes/productos/pos-header.jpg");
+  width: 100%;
+  height: 65vh;
+  display: block;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 #servicios {
   padding-bottom: 25px; }
   #servicios h2 {
