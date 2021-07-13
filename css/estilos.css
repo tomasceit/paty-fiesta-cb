@@ -224,6 +224,34 @@ button.btn-primary {
     height: 96px;
     width: 96px; }
 
+/* Pagina PRODUCTOS */
+#prod-hamb, #prod-salch, #prod-cop, #prod-fiam, #prod-gas, #prod-pos {
+  width: 100%;
+  height: 100vh; }
+
+#separador {
+  width: 100%;
+  height: 5vh;
+  background-color: #959599;
+  display: flex;
+  align-items: center; }
+  #separador p {
+    font-family: "Bebas Neue", cursive;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    align-self: center;
+    justify-self: center; }
+
+#prod-txt {
+  background-image: url(../imagenes/productos/fondo.jpg);
+  height: 30vh;
+  text-align: center;
+  display: flex; }
+  #prod-txt p {
+    justify-self: center;
+    align-self: center; }
+
 #servicios {
   padding-bottom: 25px; }
   #servicios h2 {
