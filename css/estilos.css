@@ -163,7 +163,8 @@ button.btn-primary {
   padding-bottom: 30px; }
 
 #marcas div.carousel-item img {
-  max-width: 150px; }
+  max-width: 200px;
+  max-height: 115px; }
 
 #marcas div.col-sm {
   display: flex;
