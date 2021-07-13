@@ -219,8 +219,6 @@ button.btn-primary {
     font-size: 1.5rem;
     text-align: center; }
     #productos p:hover {
-      /*background-color: $colorPrincipal;
-            color: white;*/
       text-decoration: underline; }
   #productos img {
     height: 96px;
