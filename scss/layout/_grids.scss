@@ -23,7 +23,7 @@
     #contacto{
         margin: 5px 10px;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 60px 1fr 1.8fr;
+        grid-template-rows: 60px auto 1.8fr;
         grid-template-areas: "titulo titulo" "mapa datos" "mapa formulario";
     }
 }

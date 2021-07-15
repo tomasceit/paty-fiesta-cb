@@ -94,7 +94,8 @@ a.nav-link {
 
 #mapaContacto {
   align-self: center;
-  margin-right: 10px; }
+  margin-right: 10px;
+  height: 90%; }
   #mapaContacto iframe {
     width: 95%; }
 
@@ -103,17 +104,26 @@ a.nav-link {
   #contacto h2 {
     font-size: 25px; }
 
-#formContacto {
-  margin-top: 20px; }
-  #formContacto h3 {
-    font-size: 22px;
-    margin-bottom: 10px; }
-  #formContacto .form-control:focus {
-    border-color: #c6093b;
-    box-shadow: 0 0 0 0.1rem #c6093b; }
+#formContacto h3 {
+  font-size: 22px;
+  margin: 25px 0px 10px 0px; }
+
+#formContacto .form-control:focus {
+  border-color: #c6093b;
+  box-shadow: 0 0 0 0.1rem #c6093b; }
+
+#formContacto .motivo {
+  display: flex; }
+  #formContacto .motivo label {
+    margin-right: 8px;
+    align-self: center;
+    font-size: 1.25em; }
+
+#formContacto textarea {
+  resize: none; }
 
 .datosContacto p {
-  margin-left: 20px;
+  margin-left: 15px;
   align-self: center;
   margin-bottom: 0px; }
 
@@ -142,7 +152,7 @@ button.btn-primary {
 
 .footInfo i.fas {
   color: white !important;
-  margin-right: 10px; }
+  margin-right: 20px; }
 
 .footInfo p {
   color: white;
@@ -374,7 +384,7 @@ h3.pServ {
   #contacto {
     margin: 5px 10px;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 60px 1fr 1.8fr;
+    grid-template-rows: 60px auto 1.8fr;
     grid-template-areas: "titulo titulo" "mapa datos" "mapa formulario"; } }
 
 #contacto h2 {

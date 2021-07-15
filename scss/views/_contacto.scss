@@ -1,6 +1,7 @@
 #mapaContacto{
     align-self: center;
     margin-right: 10px;
+    height: 90%;
     iframe{
         width: 95%;
     }
@@ -13,18 +14,28 @@
     }
 }
 #formContacto{
-    margin-top: 20px;
     h3{
         font-size: 22px;
-        margin-bottom: 10px;          
+        margin: 25px 0px 10px 0px;          
     }
     .form-control:focus{
         border-color: $colorPrincipal;
         box-shadow: 0 0 0 .1rem $colorPrincipal;
     }
+    .motivo{
+        display: flex;
+        label{
+            margin-right: 8px;
+            align-self: center;
+            font-size: 1.25em;
+        }
+    }
+    textarea{
+        resize: none;
+    }
 }
 .datosContacto p{
-    margin-left: 20px;
+    margin-left: 15px;
     align-self: center;
     margin-bottom: 0px;
 }
