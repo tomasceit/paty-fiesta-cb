@@ -1,7 +1,7 @@
 .carousel-caption{
     bottom: 30% !important;
     h1{
-        font-size: 60px;
+        font-size: 40px;
         color: white;
     }
     p{
@@ -14,8 +14,10 @@
 }
 
 #banner{
-    height: 100vh;
-    background-image: url(../imagenes/banner.jpg);
+    height: 780px;
+    background-image: url(../imagenes/banner-mobile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 768px) {
@@ -27,5 +29,8 @@
     }
     .carousel-caption{
         bottom: 20px !important;
+        h1{
+            font-size: 60px;
+        }
     }
 }

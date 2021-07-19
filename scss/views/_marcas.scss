@@ -4,11 +4,12 @@
         padding-bottom: 30px;
     }
     div.carousel-item img{
-        max-width: 200px;
+        max-width: 250px;
     }
     div.col-sm{
         display: flex;
        justify-content: center; 
+       align-items: center;
     }
 }
 .carousel-item.active{
@@ -31,6 +32,10 @@
         display: initial;
     }
     #marcas div.carousel-item img{
-        max-height: 115px;
+        max-height: 150px;
+        &.coca{
+            max-height: 85px;
+            max-width: 350px;
+        }
     }
 }

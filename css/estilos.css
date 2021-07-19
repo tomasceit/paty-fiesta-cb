@@ -68,11 +68,13 @@ a.nav-link {
   letter-spacing: 3px; }
   a.nav-link:hover {
     color: #c6093b !important; }
+  a.nav-link.nav-prod {
+    color: #c6093b !important; }
 
 .carousel-caption {
   bottom: 30% !important; }
   .carousel-caption h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: white; }
   .carousel-caption p {
     font-size: 1.25em; }
@@ -81,8 +83,10 @@ a.nav-link {
   display: none; }
 
 #banner {
-  height: 100vh;
-  background-image: url(../imagenes/banner.jpg); }
+  height: 780px;
+  background-image: url(../imagenes/banner-mobile.jpg);
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 @media only screen and (min-width: 768px) {
   #mainSlide {
@@ -90,7 +94,9 @@ a.nav-link {
   #banner {
     display: none; }
   .carousel-caption {
-    bottom: 20px !important; } }
+    bottom: 20px !important; }
+    .carousel-caption h1 {
+      font-size: 60px; } }
 
 #mapaContacto {
   align-self: center;
@@ -180,11 +186,12 @@ button.btn-primary {
   padding-bottom: 30px; }
 
 #marcas div.carousel-item img {
-  max-width: 200px; }
+  max-width: 250px; }
 
 #marcas div.col-sm {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: center; }
 
 .carousel-item.active {
   display: grid; }
@@ -201,7 +208,10 @@ button.btn-primary {
   #carouselMarcas {
     display: initial; }
   #marcas div.carousel-item img {
-    max-height: 115px; } }
+    max-height: 150px; }
+    #marcas div.carousel-item img.coca {
+      max-height: 85px;
+      max-width: 350px; } }
 
 .nosotros {
   display: flex;

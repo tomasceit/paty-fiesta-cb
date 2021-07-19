@@ -31,4 +31,7 @@ a.nav-link{
     &:hover{
         color: $colorPrincipal !important;
     }
+    &.nav-prod{
+        color: $colorPrincipal !important;
+    }
 }
