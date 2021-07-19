@@ -54,6 +54,7 @@
     p{
         justify-self: center;
         align-self: center;
+        margin: 0.5em 1em 1em 1em;
     }
 }
 .badge-danger{
@@ -96,5 +97,10 @@
     }
     #prod-txt{ 
         height: 30vh;
+        justify-content: center;
+        p{
+            width: 80%;
+            font-size: 1.3em;
+        }
     }
 }
