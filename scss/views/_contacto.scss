@@ -12,6 +12,12 @@
     h2{
         font-size: 25px;
     }
+    .direcContacto{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 }
 #formContacto{
     h3{

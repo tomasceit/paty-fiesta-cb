@@ -109,6 +109,11 @@ a.nav-link {
   display: grid; }
   #contacto h2 {
     font-size: 25px; }
+  #contacto .direcContacto {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: -15px;
+    margin-right: -15px; }
 
 #formContacto h3 {
   font-size: 22px;
@@ -166,6 +171,12 @@ button.btn-primary {
   align-self: center;
   font-size: 0.7em; }
 
+.footInfo div {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: -15px;
+  margin-right: -15px; }
+
 .footLogo {
   align-self: center; }
   .footLogo img {
@@ -180,6 +191,9 @@ button.btn-primary {
 
 #footBottom {
   margin-top: 25px; }
+  #footBottom p {
+    margin: 0px;
+    padding-bottom: 1em; }
 
 #marcas h2 {
   color: white;
